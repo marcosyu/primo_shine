@@ -1,0 +1,129 @@
+@import 'mixins';
+
+body {
+  font-family: $content-font;
+  margin: 0px;
+  padding: 0px;
+  background-color: $main-color;
+}
+
+header {
+  display: block;
+  height: 70px;
+  width: 100%;
+
+  .banner {
+    #main-banner {
+      position: relative;
+      padding-left: 20%;
+      background-color: $black;
+      height: 60px;
+      width: 100%;
+
+      .nav {
+        height: 60px;
+
+        .nav-link {
+          align-items: center !important;
+
+          display: flex;
+          justify-content: center;
+          padding: 0px;
+
+          a {
+            font-size: 15pt;
+            padding: 20px 15px;
+            color: white;
+          }
+
+          a:hover {
+            text-decoration: none;
+            background-color: $sub-color;
+          }
+
+          &.active {
+            a {
+              font-weight: bolder;
+            }
+          }
+        }
+      }
+    }
+
+    #sub-banner {
+      position: relative;
+      background-color: $sub-color;
+      height: 12px;
+      width: 100%;
+    }
+  }
+
+  #logo {
+    position: absolute;
+    height: 75px;
+    width: 100px;
+  }
+}
+
+footer {
+  min-height: 320px;
+  background-color: #4F4D53;
+
+  a {
+    color: $white;
+    font-weight: 500;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: $sub-color
+  }
+
+  .social_link {
+    font-size: 35px;
+  }
+}
+
+footer:before {
+  display: block;
+  content: " ";
+  width: 100%;
+  height: 12px;
+  background-color: $sub-color;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h1 {
+  padding-top: 15%;
+  margin: 0;
+  font: 900 100px $title-font;
+  color: $orange;
+}
+
+h2 {
+  padding-top: 15%;
+  margin: 0;
+  font: 900 64px $title-font;
+  color: $white;
+}
+
+h3 {
+  font: 900 20px Roboto, serif;
+  color: $white;
+}
+
+h4 {
+  font: 400 14px Roboto, serif;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+p {
+  font: 400 20px Roboto, serif;
+  color: $silver;
+}
