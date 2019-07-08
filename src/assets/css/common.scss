@@ -72,14 +72,25 @@ footer {
   a {
     color: $white;
     font-weight: 500;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:hover * {
+      text-decoration: none;
+      color: $sub-color;
+    }
   }
 
-  a:hover {
-    text-decoration: none;
-    color: $sub-color
+  .ico_title {
+    margin-left: 5px;
+    font: 900 20px Roboto, serif;
+    color: $white;
   }
 
   .social_link {
+    margin-right: 10px;
     font-size: 35px;
   }
 }
