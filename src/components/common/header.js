@@ -21,13 +21,13 @@ class Header extends Component {
       <div className= "banner">
         <div id="main-banner">
           <div id="logo_container">
-            <a className="navbar-brand">
+            <NavLink to="/" className="navbar-brand">
               <img id="logo" src={logo} alt="logo"/>
               <h3>
                 <span className="main-title"> Primo Shine Auto Paint Protection </span> <br />
                 <span className="sub-title"> Premium Ceramic Coatings | Car Detailing </span>
               </h3>
-            </a>
+            </NavLink>
           </ div>
           <ul className="nav float-right">
             <li className= {this.active_class("/")}>
