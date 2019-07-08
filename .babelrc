@@ -1,0 +1,16 @@
+"babel":
+{
+  "plugins": [
+    [
+      "module-alias", [
+      {
+        "src": "./src/assets/images",
+        "expose": "images"
+      },
+      {
+        "src": "./src/assets/css",
+        "expose": "css"
+      }]
+    ]
+  ]
+}
