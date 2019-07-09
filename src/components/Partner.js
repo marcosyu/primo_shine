@@ -8,7 +8,7 @@ class Partner extends Component {
   }
   render() {
     return (
-
+      <h1> Our Partner</h1>
     )
   }
 }

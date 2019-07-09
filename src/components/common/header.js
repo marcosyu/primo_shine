@@ -33,12 +33,7 @@ class Header extends Component {
             <li className= {this.active_class("/")}>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li className= {this.active_class("/about")}>
-              <NavLink to="/About">About</NavLink>
-            </li>
-            <li className= {this.active_class("/partner")}>
-              <NavLink to="/partner">Partner</NavLink>
-            </li>
+
           </ul>
         </div>
       
